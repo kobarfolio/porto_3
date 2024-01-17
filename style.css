@@ -1,0 +1,162 @@
+body {
+    background-image: linear-gradient(#636162, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+*{
+    margin: 0px; padding: 0px; font-family: 'montserrat', sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.left {
+    background-color: #fbb03b;
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    width: 450px;
+    float: left;
+}
+
+.profile-img {
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px ;
+    border: 10px solid #fbb03b73;
+    box-shadow: 6px 7px 9px 5px #fbb03b73;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.heading {
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: #fbb03b;
+    text-align: left;
+    padding-left: 20px;
+    margin-right:-15px ;
+}
+
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.p1 {
+    padding: 9px 10px;
+    font-size: 11px;
+}
+
+.icons1 {
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+
+.skill-container{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 10px;
+}
+
+.skill{
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+}
+
+.bahasa {
+    padding-left: 10px;
+}
+
+#separator {
+    padding-top: 8px;
+}
+
+.indonesia {
+    width: 90%;
+    background-color: white;
+}
+
+.english {
+    width: 80%;
+    background-color: white;
+}
+
+.spanish {
+    width: 80%;
+    background-color: white;
+}
+
+.japanese {
+    width: 80%;
+    background-color: white;
+}
+
+.skill-skill1 {
+    width: 50%;
+    background-color: white;
+}
+
+.skill-skill2 {
+    width: 50%;
+    background-color: white;
+}
+
+.hob2 {
+    font-weight: bold;
+}
+
+.hobbies-1 {
+    width: 50%;
+    background-color: white;
+}
+
+.hobbies-2 {
+    width: 50%;
+    background-color: white;
+}
+
+.fa {
+    font-weight: bold;
+}
+
+.gra {
+    width: 70%;
+    background-color: white;
+}
+
+.icon {
+    padding: 18px 10px;
+}

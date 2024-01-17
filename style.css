@@ -228,7 +228,55 @@ h2 {
 
 @media only screen and (max-width: 600px) {
     .left {
-        padding-left: 20px;
+        padding-left: 50px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .left {
+        padding-left: 100px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .left {
+        padding-left: 150px;
+    }
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .box-1 {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .left {
+        padding-left: 200px;
     }
     .right {
         width: 100%;
